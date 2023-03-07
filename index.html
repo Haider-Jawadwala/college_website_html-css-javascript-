@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VIDYALANKAR POLYTECHNIC</title>
+	
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="download.html">Download</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			
+			
+		</ul> 
+	</nav>
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/a.jpg" height="350" width="1000">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/b.jpg" height="350" width="1000">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/c.jpg" height="350" width="1000">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			<h3> Vidyalankar Polytechnic </h3> 
+			</header>
+			<footer>
+			</footer>
+			<content>
+<p>Vidyalankar polytechnic is Best College among top Engineering Institutes for post SSC Engineering Diploma(After 10th) at Wadala Mumbai. Recognized by AICTE and Affiliated to MSBTE(Government of Maharashtra).It Offers Computer Engineering,Information Technology and Electronics & Telecommunication Courses,Computer Engineering from USA.
+
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3>Pathway Programme</h3> 
+			</header>
+			<footer>
+			</footer>
+			<content>
+<p>As technology develops in leaps and bounds, the opportunities for expanding the field of computing grow even more rapidly. The Computer Engineering course gives a sound grounding in the fundamentals of computing and an understanding of the underlying engineering principles. A Computer Engineering student studies the design of digital hardware and software systems including communication systems and computers. They are involved in many aspects of computing from the designing of individual Microprocessors, Personal Computers and Super Computers to circuit design.
+
+Vidyalankar Polytechnic offers a three year Diploma course in Computer Engineering affiliated to Maharashtra State Board of Technical Education (MSBTE), Mumbai and Approved by All India Council for Technical Education.
+
+</p>
+			</content>
+		</article>
+
+		
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h3>Join us today!</h3>
+		<p>Embark on an exciting learning journey with Vidyalankar Polytechnic</p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3>Your Boardroom Qualification</h3>
+		<p>A Degree to stand out from the crowd…...</p>
+	</article>
+</aside>
+
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Be ahead of your peers</h3>
+		<p>Fast track your education with Vidyalankar Polytechnic</p>
+	</article>
+</aside>
+<hr>
+<footer class="mainFooter">
+<h4> <center> Quick Links <br>
+<a href="http://172.16.1.33/"><font size="4" face="Arial">VRefer</font></a><br>
+<a href="http://vprint.vit.edu.in:9191/user"><font size="4" face="Arial">VPrint</font></a><br>
+
+<p><font size="4" face="Arial"> Follow Us On:</font></p>
+<a href="https://www.facebook.com/Vidyalankar.VP"><img src="images\fb1.png" width=50 height="50"></a>
+<a href="https://twitter.com/VidyalankarPoly"><img src="images\twitter-1.png" width="50" height="50"></a>
+<a href="https://www.instagram.com/vp_vidyalankar/"><img src="images\instagram1.png" width="50" height="50"></a>
+<a href="https://www.youtube.com/channel/UCovYI0sfOz3qQDZrzJkZIVw?view_as=subscriber"><img src="images\flat_youtube1.png" width="50" height="50"></a>
+<a href="http://alumni.vidyalankar.edu.in/"><img src="images\vdt1.png" width="50" height="50"></a>
+</center></h4>
+
+</footer>
+
+</body>
+</html>
